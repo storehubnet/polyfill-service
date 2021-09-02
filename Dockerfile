@@ -6,4 +6,5 @@ RUN npm install
 RUN npm run build
 EXPOSE 8080
 ENV NODE_ENV=production
+ENV WEB_MEMORY=512
 CMD ["npm", "run", "start"]
